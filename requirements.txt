@@ -1,12 +1,12 @@
 cython
 plyfile
 
-pycocotools  # or install the nvidia version which is cpp-accelerated
+pycocotools
 
 cffi
 ninja
 setproctitle
-fastfunc
+
 meshplex
 OpenEXR
 vispy>=0.6.4
@@ -18,7 +18,7 @@ tqdm
 numba
 mmcv
 imagecorruptions
-pyassimp==4.1.3  # 4.1.4 will cause egl_renderer SegmentFault
+pyassimp==4.1.3
 pypng
 albumentations
 transforms3d
@@ -28,6 +28,6 @@ open3d
 fvcore
 tensorboardX
 
-pytorch-lightning  # 1.6.0.dev0
+pytorch-lightning
 fairscale
 deepspeed
